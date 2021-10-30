@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ITCAvantGardePro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("ITCAvantGardePro"),
+    url("/fonts/ITCAvantGardePro.otf") format("otf")
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: #bcb;
+    font-family: "ITCAvantGardePro";
+}
